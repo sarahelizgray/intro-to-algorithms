@@ -10,3 +10,7 @@ def binary_search(numbers, key):
         else:
             low = pivot + 1
     return -1
+
+result = binary_search([1,2,3,4,5,23,56,78], 23)
+
+print "result is " + str(result)
