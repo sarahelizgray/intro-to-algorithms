@@ -10,3 +10,7 @@ def prime_sieve(max_num):
                 else:
                     pass
     return list_of_nums
+
+result = prime_sieve(30)
+
+print "primes found " + str(result)
